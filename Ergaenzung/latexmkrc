@@ -1,4 +1,7 @@
 # .latexmkrc
-
+sub PrintGITRevision{
+    system("git describe --always --tags > GITRevision.tex");
+} 
+PrintGITRevision();
 $pdflatex = 'lualatex -shell-escape -interaction=nonstopmode';
 $pdf_mode = 1;
