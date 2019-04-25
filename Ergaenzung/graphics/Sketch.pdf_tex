@@ -1,4 +1,4 @@
-%% Creator: Inkscape 0.91_64bit, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'Sketch.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{226.77165354bp}%
     \ifx\svgscale\undefined%
@@ -49,30 +51,32 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.7625)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Sketch.pdf}}%
-    \put(0.938233,0.3820576){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$R_1$}}}%
-    \put(0.93364671,0.20547492){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$R_2$}}}%
+    \put(0.93823311,0.38205766){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}$R_1$\end{tabular}}}}%
+    \put(0.93364683,0.20547496){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}$R_2$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Sketch.pdf}}%
-    \put(0.80909585,0.23618515){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{Cu}}}}%
-    \put(0.38805556,0.40093242){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{Cu}}}}%
-    \put(0.51101101,0.4098255){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{Aluminium}}}}%
-    \put(0.938233,0.3820576){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$R_1$}}}%
-    \put(0.93486111,0.54070425){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$R$}}}%
-    \put(0.19105638,0.5786692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{$\lambda_{K\alpha}$}}}}%
-    \put(0.15875,0.40093242){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[b]{\smash{Zirkonium}}}}%
-    \put(0.54383416,0.5786692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{$\lambda_{K\alpha}+\Delta\lambda$}}}}%
-    \put(0.54383416,0.4199192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small {$\lambda_{K\alpha}+\Delta\lambda$}}}}%
-    \put(0.54383416,0.2611692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{$\lambda_{K\alpha}+\Delta\lambda$}}}}%
-    \put(0.19105638,0.4199192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{$\lambda_{K\alpha}$}}}}%
-    \put(0.19105638,0.2611692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{$\lambda_{K\alpha}$}}}}%
-    \put(0.44097222,1.21355594){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
-    \put(0.01763889,1.24883362){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26458333\unitlength}\centering \end{minipage}}}%
-    \put(-0.07055556,1.40758362){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.35277778\unitlength}\centering \end{minipage}}}%
-    \put(0.34361381,0.76145003){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30055013\unitlength}\centering Compton-\\ Streuung\end{minipage}}}%
-    \put(-0.00916395,0.76145003){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30055013\unitlength}\centering Monochro-\\ masierung\end{minipage}}}%
-    \put(0.15750977,0.09326429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{Transmission $T_1$ erfolgt mit $\lambda_1=\lambda_{K\alpha}$}}}}%
-    \put(0.06931532,0.03329207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{Transmission $T_2$ erfolgt mit $\lambda_2=\lambda_{K\alpha}+\Delta\lambda$}}}}%
+    \put(0.80909595,0.23618519){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Cu\end{tabular}}}}}%
+    \put(0.3880556,0.40093248){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Cu\end{tabular}}}}}%
+    \put(0.51101108,0.40982556){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Aluminium\end{tabular}}}}}%
+    \put(0.93823311,0.38205766){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}$R_1$\end{tabular}}}}%
+    \put(0.93486123,0.54070433){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}$R_0$\end{tabular}}}}%
+    \put(0.19105641,0.57866928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\small{$\lambda_{K\alpha}$}\end{tabular}}}}%
+    \put(0.15875002,0.40093248){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Zirkonium\end{tabular}}}}}%
+    \put(0.54383423,0.57866928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\small{$\lambda_{K\alpha}+\Delta\lambda$}\end{tabular}}}}%
+    \put(0.54383423,0.41991926){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\small {$\lambda_{K\alpha}+\Delta\lambda$}\end{tabular}}}}%
+    \put(0.54383423,0.26116924){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\small{$\lambda_{K\alpha}+\Delta\lambda$}\end{tabular}}}}%
+    \put(0.19105641,0.41991926){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\small{$\lambda_{K\alpha}$}\end{tabular}}}}%
+    \put(0.19105641,0.26116924){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\small{$\lambda_{K\alpha}$}\end{tabular}}}}%
+    \put(0.44097228,1.2135561){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c} \end{tabular}}}}%
+    \put(0.01763889,1.24883379){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26458337\unitlength}\centering  \end{minipage}}}%
+    \put(-0.07055556,1.40758381){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.35277782\unitlength}\centering \end{minipage}}}%
+    \put(0.34361385,0.76145014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30055017\unitlength}\centering Compton-\\ Streuung\end{minipage}}}%
+    \put(-0.00916395,0.76145014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30055017\unitlength}\centering Monochro-\\ masierung\end{minipage}}}%
+    \put(0.15750978,0.09326431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\small{Transmission $T_1$ erfolgt mit $\lambda_1=\lambda_{K\alpha}$}\end{tabular}}}}%
+    \put(0.06931533,0.03329208){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\small{Transmission $T_2$ erfolgt mit $\lambda_2=\lambda_{K\alpha}+\Delta\lambda$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{Sketch.pdf}}%
-    \put(1.18180556,0.58208329){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(1.1818057,0.58208337){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c} \end{tabular}}}}%
   \end{picture}%
 \endgroup%
